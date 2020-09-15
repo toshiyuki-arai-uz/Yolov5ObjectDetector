@@ -1,7 +1,7 @@
 #
 # Yolov5ObjectDetector.py
 # 
-# This is based on yolov5/detect.py implemenation
+# This is based on yolov5/detect.py implementation
 # on https://github.com/ultralytics/yolov5
 #
 #  2020/09/01 antillia.com (C) Toshiyuki Arai
