@@ -47,7 +47,7 @@ Please copy these files to yolov5 folder.<br><br>
 1.2 How to run Yolov5ObjectDetector
 </h3>
 
-Please run the following command<br><br>
+Please run the following command.<br>
 
 yolov5>python Yolov5ObjectDetector.py input_image_file_or_dir  output_image_dir [optional_filters]
 <br>
@@ -55,20 +55,21 @@ yolov5>python Yolov5ObjectDetector.py input_image_file_or_dir  output_image_dir 
 
 Example 1:<br>
 
-yolov5>python Yolov5ObjectDetector.py images\img.png output <br><br>
+yolov5>python Yolov5ObjectDetector.py images\img.png output <br>
 
- The above command will generate a triplet of files (detecte_objects_image, detected objects information, detected_objects_stats), 
+ The above command will generate a triplet of files (detected_objects_image, detected objects_detail, detected_objects_stats), 
  and save them as the output diretory.<br>
 
+output/img.png<br>
 <img src = "./output/img.png" width="1024" height="auto">
 <br>
 <br>
 
-img.csv<br>
+ouput/img.csv<br>
 <img src = "./output/img.csv.png" >
 <br>
 <br>
-img_stats.csv<br>
+output/img_stats.csv<br>
 <img src = "./output/img_stats.csv.png" >
 <br>
 <br>
