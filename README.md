@@ -53,11 +53,10 @@ Please run the following command.<br>
 yolov5>python Yolov5ObjectDetector.py input_image_file_or_dir  output_image_dir [optional_filters]
 <br>
 <br>
-
+<b>
 Example 1:<br>
-
 yolov5>python Yolov5ObjectDetector.py images\img.png output <br>
-
+</b>
  The above command will generate a triplet of files (detected_objects_image, detected objects_detail, detected_objects_stats), 
  and save them as the output diretory.<br>
 
@@ -72,6 +71,26 @@ ouput/img.csv<br>
 <br>
 output/img_stats.csv<br>
 <img src = "./output/img_stats.csv.png" >
+<br>
+<br>
+<b>
+Example 2: filers=[person,car]<br>
+</b>
+yolov5>python Yolov5ObjectDetector.py images\img.png output [person,car]<br>
+output/img_person_car.png<br>
+<img src = "./output/img_person_car.png" width="1024" height="auto">
+<br>
+<br>
+
+<br>
+<br>
+
+ouput/img_person_car.csv<br>
+<img src = "./output/img_person_car.csv.png" >
+<br>
+<br>
+output/img_person_car_stats.csv<br>
+<img src = "./output/img_person_car_stats.csv.png" >
 <br>
 <br>
 
