@@ -35,6 +35,7 @@ cd Yolov5ObjectDetector<br>
 <br>
 Yo may see the following files in the Yolov5ObjectDetector:<br>
 <br>
+FiltersParser.py<br>
 Yolov5ObjectDetector.py<br>
 images/<br>
 output/<br>
